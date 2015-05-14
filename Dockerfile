@@ -2,9 +2,8 @@ FROM python:3
 
 MAINTAINER yajo@openaliasbox.org
 
-RUN ["pip", "install", "wdb.server"]
-
-EXPOSE 19840
-EXPOSE 1984
+EXPOSE 1984 19840
 
 CMD ["wdb.server.py", "--detached_session"]
+
+RUN ["pip", "install", "wdb.server"]
