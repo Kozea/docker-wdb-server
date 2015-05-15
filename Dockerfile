@@ -2,10 +2,10 @@ FROM python:3
 
 MAINTAINER yajo@openaliasbox.org
 
+CMD wdb.server.py --log_to_stderr --theme=$THEME
+
 EXPOSE 1984 19840
 
-CMD ["wdb.server.py", "--log_to_stderr", "--theme", "$THEME"]
+ENV VERSION=2.1.1 THEME=clean
 
-ENV THEME=dark
-
-RUN ["pip", "install", "wdb.server"]
+RUN pip install wdb.server==$VERSION
