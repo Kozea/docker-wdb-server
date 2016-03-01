@@ -6,6 +6,6 @@ CMD wdb.server.py --log_to_stderr --theme=$THEME
 
 EXPOSE 1984 19840
 
-ENV VERSION=2.1.6 THEME=clean
+ENV VERSION=2.1.9 THEME=clean
 
 RUN pip install wdb.server==$VERSION
