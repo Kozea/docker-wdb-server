@@ -1,8 +1,8 @@
-FROM python:3
+FROM python
 
-MAINTAINER yajo@openaliasbox.org
+MAINTAINER Jairo Llopis <yajo.sk8@gmail.com>
 
-CMD wdb.server.py --log_to_stderr --theme=$THEME
+CMD wdb.server.py --log_to_stderr
 
 EXPOSE 1984 19840
 
