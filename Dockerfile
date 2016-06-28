@@ -1,6 +1,6 @@
 FROM python
 
-MAINTAINER Jairo Llopis <yajo.sk8@gmail.com>
+MAINTAINER Florian Mounier <paradoxxx.zero@gmail.com> created by Jairo Llopis <yajo.sk8@gmail.com>
 
 CMD wdb.server.py --log_to_stderr
 
