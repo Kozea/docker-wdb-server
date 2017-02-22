@@ -1,4 +1,4 @@
-FROM python
+FROM python:alpine
 
 MAINTAINER Florian Mounier <paradoxxx.zero@gmail.com> created by Jairo Llopis <yajo.sk8@gmail.com>
 
